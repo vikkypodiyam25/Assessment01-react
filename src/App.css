@@ -1,0 +1,50 @@
+.app {
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, rgb(53, 54, 53), rgb(156, 145, 145), rgb(70, 70, 72));
+  min-height: 100vh;
+  color: black
+}
+
+nav {
+  background: #3f3fbd;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  margin: 25px;
+  color: bl;
+}
+
+.navbar div {
+  background: #adafb4;
+  padding: 20px;
+  flex: 1;
+  border-radius: 10px;
+}
+
+.studentlist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.studentcard {
+  background: #adafb4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #00000010;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+  color: white;
+}
